@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  @apply rounded border-none border-0
+}
+
+th {
+  @apply border p-1
+}
+
+td {
+  @apply border p-1 text-center
+}
